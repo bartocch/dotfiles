@@ -1,0 +1,71 @@
+{
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontSize": 15,
+    "editor.fontWeight": 400,
+    "redhat.telemetry.enabled": false,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<C-j>"],
+            "commands": ["workbench.action.nextEditor"]
+        },
+        {
+            "before": ["<C-k>"],
+            "commands": ["workbench.action.previousEditor"]
+        },
+        {
+            "before": ["<C-t>"],
+            "commands": ["workbench.action.closeActiveEditor"]
+        },
+        {
+            "before": ["K"],
+            "after": ["g", "h"]
+        },
+        {
+            "before": ["<space>", "k"],
+            "after": ["g", "h"]
+        },
+        {
+            "before": ["<space>", "r", "n"],
+            "commands": ["editor.action.rename"]
+        },
+        {
+            "before": ["<space>", "f", "f"],
+            "commands": ["workbench.action.quickOpen"]
+        }
+    ],
+    "vim.leader": "<space>",
+    // To improve performance
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "explorer.compactFolders": false,
+    "window.zoomLevel": 0.3,
+    "editor.rulers": [
+        120
+    ],
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "catppuccin-noctis-icons.hidesExplorerArrows": false,
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
+    "workbench.secondarySideBar.showLabels": false,
+    "workbench.tree.indent": 20,
+    "editor.selectionClipboard": false,
+    "editor.lineNumbers": "relative",
+    "workbench.preferredLightColorTheme": "GitHub Light",
+    "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
+    "window.autoDetectColorScheme": true,
+    "git.blame.editorDecoration.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "java.debug.settings.showQualifiedNames": false,
+    "java.debug.settings.showStaticVariables": false,
+    "java.debug.settings.showLogicalStructure": true
+}

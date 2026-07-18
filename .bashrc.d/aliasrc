@@ -1,0 +1,4 @@
+# .bashrc
+
+alias ac='alacritty &'
+alias tswatch='npx tsc -b --watch --noEmit'

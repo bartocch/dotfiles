@@ -1,0 +1,78 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+    "search": {
+        "case_sensitive": true
+    },
+    "theme": {
+        "mode": "system",
+        "light": "One Light",
+        "dark": "Gruvbox Dark Hard",
+    },
+    "auto_update_extensions": {
+        "java": false
+    },
+    "project_panel": {
+        "auto_open": {
+            "on_drop": false,
+            "on_create": false,
+            "on_paste": false
+        },
+        "auto_fold_dirs": false,
+        "starts_open": false
+    },
+    "format_on_save": "off",
+    "tab_size": 4,
+    "vim": {
+        "toggle_relative_line_numbers": true,
+    },
+    "which_key": {
+        "enabled": false,
+    },
+    "ui_font_weight": 400.0,
+    "ui_font_family": "Adwaita Sans",
+    "buffer_font_size": 15.0,
+    "buffer_line_height": "standard",
+    "buffer_font_weight": 400.0,
+    "buffer_font_family": "JetBrainsMonoNL Nerd Font",
+    "vim_mode": true,
+    "base_keymap": "VSCode",
+    "icon_theme": {
+        "mode": "system",
+        "light": "Zed (Default)",
+        "dark": "Zed (Default)",
+    },
+    "ui_font_size": 16.0,
+    "languages": {
+        "TypeScript": {
+            "language_servers": ["typescript-language-server"],
+        },
+        "TSX": {
+            "language_servers": ["typescript-language-server"],
+        },
+        "JavaScript": {
+            "language_servers": ["typescript-language-server"],
+        },
+    },
+    "wrap_guides": [
+        //80, 80, 80, 80,
+        120, 120, 120, 120,
+    ],
+    "lsp": {
+        "tinymist": {
+            "initialization_options": {
+                "preview": {
+                    "background": {
+                        "enabled": true
+                    }
+                }
+            }
+        }
+    }
+}

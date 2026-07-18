@@ -1,0 +1,3 @@
+# .bashrc
+
+PATH="/bm/sys/opt/mojang:~/.cargo/bin:/bm/sys/opt/wolfram/bin:/bm/sys/opt/prism/bin:/bm/sys/opt/rvm/bin:$PATH"

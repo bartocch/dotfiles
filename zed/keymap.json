@@ -1,0 +1,85 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+    {
+        "context": "Editor && vim_mode == insert",
+        "bindings": {
+            //"j k": "vim::NormalBefore"
+        },
+    },
+    {
+        "context": "!Editor || vim_mode == normal",
+        "bindings": {
+            "ctrl-j": "pane::ActivateNextItem",
+            "ctrl-k": "pane::ActivatePreviousItem",
+            "space k": "editor::Hover",
+            "space n": "workspace::ToggleLeftDock",
+            "space f f": "file_finder::Toggle",
+            "space f g": "pane::DeploySearch",
+            "space f o": "pane::ReopenClosedItem",
+            "space c o": "editor::OrganizeImports"
+        },
+    },
+    {
+        "context": "ProjectPanel && !Editor",
+        "bindings": {
+            "d": "project_panel::Delete",
+            "x": "project_panel::Cut",
+            "c": "project_panel::Copy",
+            "p": "project_panel::Paste",
+            "a": "project_panel::NewFile",
+            "r": "project_panel::Rename",
+            "shift-a": "project_panel::NewDirectory",
+        },
+    },
+    {
+        "context": "KeymapEditor",
+        "bindings": {
+            "ctrl-t": null,
+            "ctrl-j": null,
+            "ctrl-k": null,
+        },
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-l": "workspace::NewFile",
+            "ctrl-n": null,
+        },
+    },
+    {
+        "context": "vim_mode == insert",
+        "bindings": {
+            //"j k": "vim::SwitchToNormalMode",
+        },
+    },
+    {
+        "context": "",
+        "bindings": {
+            "ctrl-c": "buffer_search::Dismiss",
+        }
+    },
+    {
+        "context": "(VimControl && !menu)",
+        "bindings": {
+            "space r n": "editor::Rename"
+        }
+    },
+    {
+        "context": "(VimControl && !menu) || (!Editor && !Terminal)",
+        "bindings": {
+            "ctrl-t": "pane::CloseActiveItem"
+        }
+    },
+    {
+        "context": "(VimControl && !menu) || (!Editor && !Terminal)",
+        "unbind": {
+            "ctrl-w q": "pane::CloseActiveItem"
+        }
+    }
+]
