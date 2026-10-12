@@ -71,4 +71,5 @@
     "java.debug.settings.showLogicalStructure": true,
     "explorer.confirmPasteNative": false,
     "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "C_Cpp.default.cppStandard": "c++23"
 }
