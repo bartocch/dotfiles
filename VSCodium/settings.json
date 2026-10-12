@@ -68,4 +68,5 @@
     "java.debug.settings.showQualifiedNames": false,
     "java.debug.settings.showStaticVariables": false,
     "java.debug.settings.showLogicalStructure": true
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
 }
